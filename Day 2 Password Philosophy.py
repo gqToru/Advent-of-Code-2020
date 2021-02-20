@@ -20,7 +20,7 @@
 acc = 0
 new_acc = 0
 
-data = open('day2.txt')
+data = open('./files/day2.txt')
 for each_line in data:
     (policy, password) = each_line.split(': ')
     (rangePolicy, letter) = policy.split(' ')
