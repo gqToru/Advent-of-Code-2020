@@ -61,9 +61,7 @@ def checkPassports(passports):
 def dictionary_convert(pass_list):
     dictionary = {}
     for item in pass_list:
-        item = item.split(":")
-        key = item[0]
-        value = item[1]
+        (key, value) = item.split(":")
         dictionary[key] = value
     return dictionary
 
